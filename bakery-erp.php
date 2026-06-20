@@ -1,22 +1,4 @@
 <?php
-// ══════════════════════════════════════════════════════════════
-//  Mocardi – Bakery Management System
-//  Single-file: REST API  +  HTML/JS frontend
-//
-//  HOW IT WORKS
-//  ─────────────────────────────────────────────────────────────
-//  • Requests with ?resource=...  → answered as JSON (API mode)
-//    and execution stops (exit).
-//  • All other requests           → fall through to the HTML page.
-//
-//  SETUP
-//  ─────────────────────────────────────────────────────────────
-//  1. Import mocardi.sql into MySQL.
-//  2. Edit the DB_* constants below.
-//  3. Drop this single file anywhere on your PHP server.
-//     (e.g.  /var/www/html/mocardi/index.php)
-// ══════════════════════════════════════════════════════════════
-
 ini_set('display_errors', 0);
 ini_set('log_errors',     1);
 error_reporting(E_ALL);
